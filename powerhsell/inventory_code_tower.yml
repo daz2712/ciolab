@@ -1,0 +1,10 @@
+#User local
+ansible_host: IP_del_servidor
+ansible_connection: winrm
+ansible_winrm_server_cert_validation: ignore
+ansible_winrm_transport: basic
+#User Dominio
+ansible_host: IP_del_servidor
+ansible_connection: winrm
+ansible_winrm_transport: credssp
+ansible_winrm_server_cert_validation: ignore (edit
